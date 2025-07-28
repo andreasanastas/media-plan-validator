@@ -1,0 +1,98 @@
+{
+    "task": "Generate INTENTIONALLY BAD and inconsistent test JSON objects for testing error handling and validation in an SME digital media planner. These should represent real-world user input mistakes.",
+    "fields": {
+        "business": {
+            "description": "Often vague, overly broad, or contradictory business descriptions (e.g., 'we sell everything', 'luxury budget store', 'online physical store only', 'restaurant car repair')",
+            "location": "Inconsistent or impossible locations (e.g., 'Paris, USA', 'London, Cyprus', 'New York, Greece', 'Atlantis', 'My house', 'everywhere')",
+            "online": "Inconsistent with description or confusing values (e.g., 'maybe', 'sometimes', 'only on weekends', 'yes and no')",
+            "website": "Invalid URLs, typos, or nonsensical entries (e.g., 'www.google', 'http://my-site', 'facebook.com/notmysite', 'coming soon', 'N/A')"
+        },
+        "target_market": {
+            "regions_included": "Contradictory or impossible targeting (e.g., ['Mars', 'Atlantis'], ['Everywhere except nowhere'], ['My neighborhood only'], ['All English-speaking countries in Asia'])",
+            "regions_excluded": "Illogical exclusions (e.g., ['Earth'], ['The country I'm targeting'], ['Competitors'], ['Poor people'])",
+            "gender": "Invalid or nonsensical values (e.g., 'males and females only', 'everyone except men', 'prefer not to say', 'both', 'depends')",
+            "age_groups": "Invalid ranges or impossible ages (e.g., ['0-5'], ['150-200'], ['teenagers to seniors'], ['young adults'], ['25-18'], ['all ages except old people'])",
+            "interests": "Irrelevant, contradictory, or silly interests (e.g., ['Making money', 'Free stuff', 'Everything', 'Nothing specific', 'Breathing', 'Hating my product', 'Competition'])"
+        },
+        "objectives": {
+            "primary": "Vague or impossible objectives (e.g., 'Make money', 'Get famous', 'World domination', 'Everything', 'Not sure', 'Whatever works')",
+            "secondary": "Contradictory to primary or redundant (e.g., same as primary, 'Lose money', 'Confuse customers', 'Get less traffic')"
+        },
+        "lead_preference": "Impractical or unclear preferences (e.g., 'Telepathy', 'Carrier pigeon', 'Word of mouth only', 'Don't contact me', 'However they want', 'Smoke signals')",
+        "social_accounts": [
+            {
+                "platform": "INTENTIONALLY use invalid platforms not in the allowed list (e.g., 'LinkedIn Ads', 'Snapchat', 'MySpace', 'Twitter Ads', 'Pinterest', 'Reddit', 'WhatsApp Business')",
+                "urls": "Broken, wrong platform, or nonsensical URLs (e.g., ['https://www.instagram.com/facebook'], ['www.google.com'], ['my-facebook-page'], ['https://tiktok.com/competitor'])"
+            }
+        ],
+        "creative_assets": {
+            "has_assets": "Contradictory or invalid values (e.g., 'kind of', 'working on it', 'stolen from competitors', 'not yet but soon')",
+            "description": "Unrealistic or contradictory asset descriptions (e.g., '100 professional videos on iPhone', 'AI-generated selfies', 'My cousin's drawings', 'Screenshots from Google')"
+        },
+        "budget": "Unrealistic budgets or invalid formats (e.g., -500, 0, 'as little as possible', 'unlimited', '10 million', '$50 USD', 'whatever it takes')",
+        "start_date": "Invalid dates or formats (e.g., 'ASAP', '2023-13-45', 'yesterday', 'when I'm ready', '01/01/2020', 'next Tuesday')",
+        "campaign_duration_days": "Invalid durations (e.g., 0, -30, 'forever', 'until it works', 365, '2 weeks', 'as long as needed')"
+    },
+    "requirements": [
+        "Generate INTENTIONALLY BAD data that represents common user input mistakes.",
+        "Include validation edge cases and boundary violations.",
+        "Mix different types of errors: missing fields, wrong formats, impossible values, contradictions.",
+        "Use platforms NOT in the allowed list to test enum validation.",
+        "Create realistic user confusion scenarios (e.g., mixing up fields, misunderstanding requirements).",
+        "Include both subtle errors (wrong format) and obvious errors (impossible values).",
+        "Make geographic and demographic inconsistencies obvious.",
+        "Output must still be valid JSON structure (but with bad field values)."
+    ],
+    "error_categories": {
+        "validation_errors": [
+            "Out of range values (ages, budgets, dates)",
+            "Invalid enum values (platforms, objectives)",
+            "Wrong data types (strings for numbers, etc.)",
+            "Invalid formats (dates, URLs, phone numbers)"
+        ],
+        "business_logic_errors": [
+            "Contradictory information (online=false but website provided)",
+            "Geographic inconsistencies (business in Paris targeting Tokyo only)",
+            "Demographic mismatches (baby products targeting 65+ age group)",
+            "Platform/audience mismatches (B2B service using TikTok only)"
+        ],
+        "user_confusion_errors": [
+            "Mixing up field purposes (putting business name in description)",
+            "Overly vague or generic entries",
+            "Copy-pasting inappropriate content",
+            "Misunderstanding technical terms"
+        ],
+        "realistic_mistakes": [
+            "Typos in critical fields",
+            "Incomplete or placeholder text",
+            "Personal opinions instead of data",
+            "Competitor information by mistake"
+        ]
+    },
+    "bad_data_examples": {
+        "silly_business_descriptions": [
+            "Best business in the world",
+            "We sell stuff people need",
+            "Like Amazon but different",
+            "My mom's favorite store"
+        ],
+        "impossible_targeting": [
+            "Everyone who has money",
+            "People who don't use the internet (for online business)",
+            "Only my friends and family",
+            "Millionaires under 18"
+        ],
+        "invalid_interests": [
+            "Free money",
+            "Avoiding ads",
+            "Hating shopping",
+            "My competitors' customers"
+        ],
+        "broken_urls": [
+            "www.facebook.com/someone-else",
+            "http://under-construction.html",
+            "google.com/search?q=how+to+make+website",
+            "coming-soon.com"
+        ]
+    }
+}

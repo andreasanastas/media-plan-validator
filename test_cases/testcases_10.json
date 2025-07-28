@@ -1,0 +1,553 @@
+[
+  {
+    "business": {
+      "description": "Handmade soap and organic skincare store",
+      "location": "Portland, US",
+      "online": true,
+      "website": "https://www.soapandskinportland.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "Portland",
+        "Seattle",
+        "San Francisco",
+        "Los Angeles"
+      ],
+      "regions_excluded": [],
+      "gender": "all",
+      "age_groups": [
+        "18-35",
+        "36-55"
+      ],
+      "interests": [
+        "Organic skincare",
+        "Handmade products",
+        "Vegan skincare",
+        "Natural beauty",
+        "Eco-friendly lifestyle"
+      ]
+    },
+    "objectives": {
+      "primary": "Sales (online)",
+      "secondary": "Awareness"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/soapandskinportland"
+        ]
+      },
+      {
+        "platform": "Google Responsive Display",
+        "urls": [
+          "https://www.google.com/ads/displaynetwork"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "3:2 product images, 2 blog articles, 1 tutorial video"
+    },
+    "budget": 5000,
+    "start_date": "2023-02-01",
+    "campaign_duration_days": 30
+  },
+  {
+    "business": {
+      "description": "Organic coffee shop and bookstore",
+      "location": "Seattle, USA",
+      "online": true,
+      "website": "https://www.coffeereadseattle.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "Seattle",
+        "Portland",
+        "San Francisco"
+      ],
+      "regions_excluded": [],
+      "gender": "all",
+      "age_groups": [
+        "18–35",
+        "36-50"
+      ],
+      "interests": [
+        "Reading",
+        "Coffee",
+        "Sustainability",
+        "Lifestyle",
+        "Education"
+      ]
+    },
+    "objectives": {
+      "primary": "Store Visits",
+      "secondary": "Traffic"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Facebook)",
+        "urls": [
+          "https://www.facebook.com/coffeereadseattle"
+        ]
+      },
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/coffeereadseattle"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "1:1 product images, 2 banner ads, 3 story videos"
+    },
+    "budget": 5000,
+    "start_date": "2023-05-01",
+    "campaign_duration_days": 30
+  },
+  {
+    "business": {
+      "description": "Handmade artisanal jewelry store",
+      "location": "New York, USA",
+      "online": true,
+      "website": "https://www.artisanjewels.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "USA",
+        "Canada",
+        "UK"
+      ],
+      "regions_excluded": [],
+      "gender": "women",
+      "age_groups": [
+        "25-35",
+        "36-45",
+        "46-55"
+      ],
+      "interests": [
+        "Fashion",
+        "Jewelry",
+        "Handmade crafts",
+        "Accessories"
+      ]
+    },
+    "objectives": {
+      "primary": "Sales (online)",
+      "secondary": "Traffic"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/artisanjewels"
+        ]
+      },
+      {
+        "platform": "Google Search",
+        "urls": [
+          "https://www.google.com/search?q=artisan+jewelry"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "1:1 product images, 3 banner ads, 2 promotional videos"
+    },
+    "budget": 8000,
+    "start_date": "2023-07-01",
+    "campaign_duration_days": 30
+  },
+  {
+    "business": {
+      "description": "Handcrafted vintage furniture store",
+      "location": "Edinburgh, Scotland",
+      "online": true,
+      "website": "https://www.vintiquefurnitures.co.uk"
+    },
+    "target_market": {
+      "regions_included": [
+        "Edinburgh",
+        "Glasgow",
+        "Aberdeen"
+      ],
+      "regions_excluded": [],
+      "gender": "all",
+      "age_groups": [
+        "25-35",
+        "35-45",
+        "45-55"
+      ],
+      "interests": [
+        "Vintage furniture",
+        "Home decor",
+        "Interior design",
+        "DIY"
+      ]
+    },
+    "objectives": {
+      "primary": "Sales (online)",
+      "secondary": "Traffic"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/vintiquefurnitures"
+        ]
+      },
+      {
+        "platform": "Google Search",
+        "urls": [
+          "https://www.google.co.uk/search?q=vintique+furnitures"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "10 high-resolution product images, 1 promotional video, 3 banner ads"
+    },
+    "budget": 2500,
+    "start_date": "2023-04-01",
+    "campaign_duration_days": 30
+  },
+  {
+    "business": {
+      "description": "Farm-to-table restaurant and wine bar",
+      "location": "Portland, Oregon, USA",
+      "online": true,
+      "website": "http://www.portlandfarmrestaurant.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "Portland",
+        "Salem",
+        "Eugene"
+      ],
+      "regions_excluded": [],
+      "gender": "all",
+      "age_groups": [
+        "25-35",
+        "36-45",
+        "46-55"
+      ],
+      "interests": [
+        "Organic foods",
+        "Sustainable living",
+        "Wine tasting",
+        "Farm-to-table"
+      ]
+    },
+    "objectives": {
+      "primary": "Store Visits",
+      "secondary": "Awareness"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Facebook)",
+        "urls": [
+          "https://www.facebook.com/portlandfarmrestaurant"
+        ]
+      },
+      {
+        "platform": "Google Search",
+        "urls": [
+          "http://www.portlandfarmrestaurant.com"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "5 high-res images of dishes, 2 short video tours, 3 banner ads"
+    },
+    "budget": 5000,
+    "start_date": "2023-05-01",
+    "campaign_duration_days": 30
+  },
+  {
+    "business": {
+      "description": "Organic skincare products store",
+      "location": "Seattle, USA",
+      "online": true,
+      "website": "https://www.organicbeauty.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "USA",
+        "Canada",
+        "United Kingdom"
+      ],
+      "regions_excluded": [],
+      "gender": "all",
+      "age_groups": [
+        "18–35",
+        "36–50"
+      ],
+      "interests": [
+        "Organic Skincare",
+        "Natural Remedies",
+        "Beauty Products",
+        "Healthy Living"
+      ]
+    },
+    "objectives": {
+      "primary": "Sales (online)",
+      "secondary": "Traffic"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Facebook)",
+        "urls": [
+          "https://www.facebook.com/organicbeauty"
+        ]
+      },
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/organicbeauty"
+        ]
+      },
+      {
+        "platform": "Google Search",
+        "urls": [
+          "https://www.google.com/search?q=organic+beauty"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "1:1 product images, 2 vertical skincare routine videos, 3 banner ads"
+    },
+    "budget": 3500,
+    "start_date": "2022-07-01",
+    "campaign_duration_days": 30
+  },
+  {
+    "business": {
+      "description": "Handmade leather goods store",
+      "location": "Los Angeles, USA",
+      "online": true,
+      "website": "http://www.handmadeleathergoods.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "Los Angeles",
+        "San Francisco",
+        "New York"
+      ],
+      "regions_excluded": [],
+      "gender": "all",
+      "age_groups": [
+        "25-35",
+        "36-45"
+      ],
+      "interests": [
+        "Fashion",
+        "Handmade products",
+        "Leather goods"
+      ]
+    },
+    "objectives": {
+      "primary": "Sales (online)",
+      "secondary": "Awareness"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/handmadeleathergoods/"
+        ]
+      },
+      {
+        "platform": "Google Search",
+        "urls": [
+          "http://www.handmadeleathergoods.com"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "High resolution product images, 2 promotional videos, 3 banner ads"
+    },
+    "budget": 5000,
+    "start_date": "2023-10-01",
+    "campaign_duration_days": 30
+  },
+  {
+    "business": {
+      "description": "Urban organic grocery store",
+      "location": "New York, USA",
+      "online": true,
+      "website": "https://www.organicgrocerynyc.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "New York",
+        "New Jersey",
+        "Connecticut"
+      ],
+      "regions_excluded": [],
+      "gender": "all",
+      "age_groups": [
+        "18-35",
+        "36-55",
+        "56-75"
+      ],
+      "interests": [
+        "Organic food",
+        "Sustainability",
+        "Healthy living",
+        "Home cooking"
+      ]
+    },
+    "objectives": {
+      "primary": "Sales (online)",
+      "secondary": "Awareness"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Facebook)",
+        "urls": [
+          "https://www.facebook.com/OrganicGroceryNYC"
+        ]
+      },
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/OrganicGroceryNYC"
+        ]
+      },
+      {
+        "platform": "Google Search",
+        "urls": [
+          "https://www.google.com/search?q=Organic+Grocery+NYC"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "1:1 product images, 2 vertical videos, 3 banner ads"
+    },
+    "budget": 5000,
+    "start_date": "2023-07-01",
+    "campaign_duration_days": 30
+  },
+  {
+    "business": {
+      "description": "Vegan restaurant and smoothie bar",
+      "location": "Austin, USA",
+      "online": true,
+      "website": "https://www.veganvibes-austin.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "Austin",
+        "San Antonio",
+        "Houston"
+      ],
+      "regions_excluded": [],
+      "gender": "all",
+      "age_groups": [
+        "18-24",
+        "25-34",
+        "35-44"
+      ],
+      "interests": [
+        "Veganism",
+        "Healthy Living",
+        "Fitness",
+        "Sustainability",
+        "Plant-based Diets"
+      ]
+    },
+    "objectives": {
+      "primary": "Sales (online)",
+      "secondary": "Awareness"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/veganvibes_austin"
+        ]
+      },
+      {
+        "platform": "Google Search",
+        "urls": [
+          "https://www.google.com/search?q=VeganVibes+Austin"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "1:1 product images, 2 vertical videos showing smoothie preparation, 3 banner ads"
+    },
+    "budget": 5000,
+    "start_date": "2023-04-01",
+    "campaign_duration_days": 30
+  },
+  {
+    "business": {
+      "description": "Handmade jewelry and accessory boutique",
+      "location": "Paris, France",
+      "online": true,
+      "website": "https://www.boutique-jewelry.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "France",
+        "Italy",
+        "Spain",
+        "Belgium"
+      ],
+      "regions_excluded": [],
+      "gender": "women",
+      "age_groups": [
+        "18-24",
+        "25-34",
+        "35-44"
+      ],
+      "interests": [
+        "Fashion",
+        "Handmade jewelry",
+        "Designer accessories"
+      ]
+    },
+    "objectives": {
+      "primary": "Sales (online)",
+      "secondary": "Traffic"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/boutique_jewelry"
+        ]
+      },
+      {
+        "platform": "Google Search",
+        "urls": [
+          "https://www.google.com/search?q=boutique+jewelry"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "1:1 product images, 2 lifestyle shots, 3 carousel ads"
+    },
+    "budget": 5000,
+    "start_date": "2023-05-01",
+    "campaign_duration_days": 30
+  }
+]

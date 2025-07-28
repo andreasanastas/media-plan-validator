@@ -1,0 +1,77 @@
+{
+    "task": "Generate a realistic test JSON object for an SME digital media planner focused on Cyprus market.",
+    "fields": {
+        "business": {
+            "description": "Short business type summary relevant to Cyprus market (e.g., 'traditional taverna', 'beach resort hotel', 'Cypriot wine shop', 'Mediterranean jewelry boutique', 'olive oil producer')",
+            "location": "city, Cyprus (choose from: Nicosia, Limassol, Larnaca, Paphos, Protaras, Ayia Napa, or other Cypriot cities)",
+            "online": "true or false",
+            "website": "valid website URL with .cy domain when appropriate"
+        },
+        "target_market": {
+            "regions_included": "list of regions targeting Cyprus and surrounding areas (e.g., ['Cyprus'], ['Cyprus', 'Greece'], ['Limassol', 'Paphos'], ['Mediterranean region'])",
+            "regions_excluded": "list, may be empty",
+            "gender": "all, men, or women",
+            "age_groups": "list of ranges, e.g. ['25–45']",
+            "interests": "list of 1-3 audience interests relevant to Cyprus culture/market (e.g., 'Mediterranean cuisine', 'Tourism', 'Traditional crafts', 'Beach activities', 'Wine tasting', 'Greek culture')"
+        },
+        "objectives": {
+            "primary": "e.g., 'Sales (online)', 'Store Visits', 'App Installs', 'Leads', 'Traffic', 'Awareness', 'Subscriptions'",
+            "secondary": "optional, from same list"
+        },
+        "lead_preference": "short text, e.g., 'Own website', 'Sign-up form', 'Contact form', 'WhatsApp', 'Phone call', 'In-store visit'",
+        "social_accounts": [
+            {
+                "platform": "choose from: 'Meta (Facebook)', 'Meta (Instagram)', 'Meta (Combined)', 'TikTok Ads', 'Google Display Network', 'Google Responsive Display', 'Google Search', 'YouTube Ads', 'Programmatic Display', 'Programmatic OLV', 'Microsoft Search', 'Microsoft Audience Network'",
+                "urls": "list of 1 or more valid platform URLs"
+            }
+        ],
+        "creative_assets": {
+            "has_assets": "true/false",
+            "description": "short, realistic list of creative assets relevant to Cyprus businesses (e.g., '1:1 product images, 2 vertical videos showcasing Cyprus scenery, 3 banner ads with Greek text')"
+        },
+        "budget": "number in EUR, between 500 and 25,000 (appropriate for Cyprus SME market)",
+        "start_date": "YYYY-MM-DD format, future date considering Cyprus tourism seasons",
+        "campaign_duration_days": "integer, 7–60"
+    },
+    "requirements": [
+        "All fields must be present.",
+        "The data must be realistic for Cyprus market and internally consistent (e.g., taverna in Paphos targeting Cyprus tourists, not 'sushi restaurant in Nicosia' targeting Japan).",
+        "Business types should reflect Cyprus economy: tourism, hospitality, traditional crafts, food & wine, real estate, services.",
+        "Targeting should consider Cyprus demographics, tourism patterns, and Greek/Turkish cultural context.",
+        "Enum values for social_accounts.platform must match exactly the allowed values above.",
+        "Use Cyprus-appropriate business names, interests, and marketing approaches.",
+        "Consider seasonal factors (tourism season May-October, local holidays, etc.).",
+        "Budget should reflect Cyprus SME spending power and market size.",
+        "Output must be valid JSON."
+    ],
+    "cyprus_context": {
+        "popular_business_types": [
+            "Traditional tavernas and restaurants",
+            "Hotels and accommodations", 
+            "Wine producers and wineries",
+            "Olive oil and local food producers",
+            "Tourist services and excursions",
+            "Real estate agencies",
+            "Traditional craft shops",
+            "Beach bars and cafes",
+            "Car rental services",
+            "Beauty salons and spas",
+            "Jewelry and souvenir shops"
+        ],
+        "target_demographics": [
+            "Local Cypriots (Greek and Turkish speaking)",
+            "British expats and tourists",
+            "German tourists",
+            "Russian residents and tourists", 
+            "Israeli tourists",
+            "Lebanese visitors",
+            "EU citizens living in Cyprus"
+        ],
+        "seasonal_considerations": [
+            "Peak tourism: May-October",
+            "Wedding season: September-October, May-June",
+            "Local holidays: Orthodox Easter, Christmas, Independence Day",
+            "Off-season local focus: November-April"
+        ]
+    }
+}

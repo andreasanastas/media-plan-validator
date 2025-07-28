@@ -1,0 +1,43 @@
+{
+    "task": "Generate a realistic test JSON object for an SME digital media planner.",
+    "fields": {
+        "business": {
+            "description": "Short business type summary (e.g., 'vegan bakery and caf\u00e9', 'urban car repair shop')",
+            "location": "city, country",
+            "online": "true or false",
+            "website": "valid website URL"
+        },
+        "target_market": {
+"regions_included": "list of one or more realistic regions, cities, or countries targeted; usually just one item, matching the business type and location",
+            "regions_excluded": "list, may be empty",
+            "gender": "all, men, or women",
+            "age_groups": "list of ranges, e.g. ['18\u201335']",
+            "interests": "list of 1-3 audience interests"
+        },
+        "objectives": {
+            "primary": "e.g., 'Sales (online)', 'Store Visits', 'App Installs', 'Leads', 'Traffic', 'Awareness', 'Subscriptions'",
+            "secondary": "optional, from same list"
+        },
+        "lead_preference": "short text, e.g., 'Own website', 'Sign-up form', 'App store page', 'Contact form', 'In-store QR'",
+        "social_accounts": [
+            {
+                "platform": "choose from: 'Meta (Facebook)', 'Meta (Instagram)', 'Meta (Combined)', 'TikTok Ads', 'Google Display Network', 'Google Responsive Display', 'Google Search', 'YouTube Ads', 'Programmatic Display', 'Programmatic OLV', 'Microsoft Search', 'Microsoft Audience Network'",
+                "urls": "list of 1 or more valid platform URLs"
+            }
+        ],
+        "creative_assets": {
+            "has_assets": "true/false",
+            "description": "short, realistic list of creative assets (e.g., '1:1 product images, 2 vertical videos, 3 banner ads')"
+        },
+        "budget": "number, between 500 and 25,000",
+        "start_date": "YYYY-MM-DD format, future date",
+        "campaign_duration_days": "integer, 7\u201360"
+    },
+    "requirements": [
+        "All fields must be present.",
+        "The data must be realistic and internally consistent (e.g., fashion business in Paris, not 'salon in Tokyo' with London targeting).",
+        "Enum values for social_accounts.platform must match exactly the allowed values above.",
+        "Use a random but plausible combination of all fields.",
+        "Output must be valid JSON."
+    ]
+}

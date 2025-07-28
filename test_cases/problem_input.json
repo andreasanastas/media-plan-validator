@@ -1,0 +1,32 @@
+{
+    "business": {
+      "description": "vegan snack and meal subscription box delivered UK-wide",
+      "location": "Bristol, UK",
+      "online": true,
+      "website": "https://greenboxfood.co.uk"
+    },
+    "target_market": {
+      "regions_included": ["United Kingdom"],
+      "regions_excluded": [],
+      "gender": "all",
+      "age_groups": ["18–40"],
+      "interests": ["vegan", "healthy eating", "subscription boxes", "foodies"]
+    },
+    "objectives": {
+      "primary": "Subscriptions",
+      "secondary": "Traffic"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {"platform": "Meta (Instagram)", "urls": ["https://instagram.com/greenboxfood"]},
+      {"platform": "TikTok Ads", "urls": ["https://tiktok.com/@greenboxfood"]}
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "Box unboxing video (9:16), styled product images, influencer selfie with box"
+    },
+    "budget": 2900,
+    "start_date": "2025-10-05",
+    "campaign_duration_days": 25
+  }
+  

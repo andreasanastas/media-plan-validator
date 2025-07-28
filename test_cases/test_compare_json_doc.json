@@ -1,0 +1,54 @@
+{
+    "business": {
+      "description": "Handmade jewelry and accessory boutique",
+      "location": "Paris, France",
+      "online": true,
+      "website": "https://www.boutique-jewelry.com"
+    },
+    "target_market": {
+      "regions_included": [
+        "France",
+        "Italy",
+        "Spain",
+        "Belgium"
+      ],
+      "regions_excluded": [],
+      "gender": "women",
+      "age_groups": [
+        "18-24",
+        "25-34",
+        "35-44"
+      ],
+      "interests": [
+        "Fashion",
+        "Handmade jewelry",
+        "Designer accessories"
+      ]
+    },
+    "objectives": {
+      "primary": "Sales (online)",
+      "secondary": "Traffic"
+    },
+    "lead_preference": "Own website",
+    "social_accounts": [
+      {
+        "platform": "Meta (Instagram)",
+        "urls": [
+          "https://www.instagram.com/boutique_jewelry"
+        ]
+      },
+      {
+        "platform": "Google Search",
+        "urls": [
+          "https://www.google.com/search?q=boutique+jewelry"
+        ]
+      }
+    ],
+    "creative_assets": {
+      "has_assets": true,
+      "description": "1:1 product images, 2 lifestyle shots, 3 carousel ads"
+    },
+    "budget": 5000,
+    "start_date": "2023-05-01",
+    "campaign_duration_days": 30
+  }
